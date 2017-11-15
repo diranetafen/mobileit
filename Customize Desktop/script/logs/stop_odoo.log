@@ -1,0 +1,3 @@
+ Wed 13 Sep 13:44:33 CEST 2017 ----------   Stop_Odoo : Stoping Process nativefier
+Wed 13 Sep 13:44:33 CEST 2017 ----------   Stop_Odoo : Trying to stop previous instance of process Nativefier
+Wed 13 Sep 13:44:33 CEST 2017 ----------   Stop_Odoo : Removing odoo_pid pid file

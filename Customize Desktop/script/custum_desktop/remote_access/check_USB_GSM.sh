@@ -1,0 +1,31 @@
+#cd /home/pi/custum_desktop/remote_access #Changing directory to your working directory
+gammu --identify | sed -n 1p > gammu_answer.txt
+##To check for a particular  string in a file
+
+File="gammu_answer.txt"
+if grep -q 'USB' "$File"; ##note the space after the string you are searching for
+then
+echo "USB GSM UP"
+echo " $(date) ----------   GSM-check : OK" >> /home/pi/custum_desktop/logs/gammu_answer.log
+
+echo "OK" > /home/pi/custum_desktop/logs/gammu_answer.txt
+gammu --identify | sed -n 1p | cut -d':' -f2 | cut -c2- > /home/pi/custum_desktop/logs/USB_device.txt
+else
+echo "USB GSM DOWN"
+sudo /usr/sbin/usb_modeswitch -W -v 05c6 -p 1000 -K
+sleep  30
+        echo " $(date) ----------   GSM-check : retry detect" >> /home/pi/custum_desktop/logs/gammu_answer.log 
+	gammu --identify | sed -n 1p > /home/pi/custum_desktop/logs/gammu_answer.txt
+	if grep -q 'USB' "/home/pi/custum_desktop/logs/$File"; ##note the space after the string you are searching for
+	then
+	echo "USB GSM UP"
+	echo "  $(date) ----------   GSM-check : OK" >> /home/pi/custum_desktop/logs/gammu_answer.log 
+        echo "OK" > gammu_answer.txt
+        gammu --identify | sed -n 1p | cut -d':' -f2 | cut -c2- > /home/pi/custum_desktop/logs/USB_device.txt
+	else
+	echo " $(date) ----------   GSM-check : USB GSM KO"
+	echo "  $(date) ----------   GSM-check : USB GSM KO" >> /home/pi/custum_desktop/logs/gammu_answer.log 
+        echo "KO" > /home/pi/custum_desktop/logs/gammu_answer.txt
+	fi
+fi
+

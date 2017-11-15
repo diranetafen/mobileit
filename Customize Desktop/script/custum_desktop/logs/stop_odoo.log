@@ -1,0 +1,75 @@
+ Wed 13 Sep 13:44:33 CEST 2017 ----------   Stop_Odoo : Stoping Process nativefier
+Wed 13 Sep 13:44:33 CEST 2017 ----------   Stop_Odoo : Trying to stop previous instance of process Nativefier
+Wed 13 Sep 13:44:33 CEST 2017 ----------   Stop_Odoo : Removing odoo_pid pid file
+Tue 19 Sep 15:04:30 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Tue 19 Sep 15:04:30 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Tue 19 Sep 15:06:13 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Tue 19 Sep 15:06:13 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Tue 19 Sep 15:11:41 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Tue 19 Sep 15:11:41 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Tue 19 Sep 20:26:30 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Tue 19 Sep 20:26:30 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Tue 19 Sep 20:52:53 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Tue 19 Sep 20:52:53 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Wed 20 Sep 09:00:43 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Wed 20 Sep 09:00:43 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Wed 20 Sep 19:56:59 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Wed 20 Sep 19:56:59 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Wed 20 Sep 20:05:37 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Wed 20 Sep 20:05:37 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Wed 20 Sep 20:37:28 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Wed 20 Sep 20:37:28 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Thu 21 Sep 09:07:34 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Thu 21 Sep 09:07:34 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Mon 25 Sep 13:40:08 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Mon 25 Sep 13:40:08 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Mon 25 Sep 13:41:17 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Mon 25 Sep 13:41:17 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Mon 25 Sep 13:42:45 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Mon 25 Sep 13:42:45 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Mon 25 Sep 21:03:42 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Mon 25 Sep 21:03:42 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Mon 25 Sep 21:31:06 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Mon 25 Sep 21:31:06 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Mon 25 Sep 21:31:41 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Mon 25 Sep 21:31:41 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Mon 25 Sep 21:33:27 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Mon 25 Sep 21:33:27 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Mon 25 Sep 21:33:58 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Mon 25 Sep 21:33:58 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Mon 25 Sep 21:37:24 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Mon 25 Sep 21:37:24 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Mon 25 Sep 21:52:23 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Mon 25 Sep 21:52:23 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Tue 26 Sep 21:12:15 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Tue 26 Sep 21:12:15 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Tue 26 Sep 21:40:24 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Tue 26 Sep 21:40:24 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Wed 27 Sep 13:52:56 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Wed 27 Sep 13:52:56 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Wed 27 Sep 19:54:22 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Wed 27 Sep 19:54:22 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Sat 30 Sep 19:04:20 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Sat 30 Sep 19:04:20 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Sun  1 Oct 19:10:58 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Sun  1 Oct 19:10:58 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Sat  7 Oct 12:00:37 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Sat  7 Oct 12:00:37 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Sun  8 Oct 14:31:47 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Sun  8 Oct 14:31:47 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Mon  9 Oct 23:26:05 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Mon  9 Oct 23:26:05 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Sun 22 Oct 17:10:21 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Sun 22 Oct 17:10:21 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Wed 25 Oct 14:20:26 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Wed 25 Oct 14:20:26 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Wed 25 Oct 14:22:53 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Wed 25 Oct 14:22:53 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Wed 25 Oct 18:11:47 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Wed 25 Oct 18:11:47 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Wed 25 Oct 22:00:40 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Wed 25 Oct 22:00:40 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Thu 26 Oct 14:20:45 CEST 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Thu 26 Oct 14:20:45 CEST 2017 ----------   Stop_Odoo : Removing A pid file
+Sun 29 Oct 14:13:36 CET 2017 ----------   Stop_Odoo : Trying to stop Odoo instance
+Sun 29 Oct 14:13:36 CET 2017 ----------   Stop_Odoo : Removing A pid file

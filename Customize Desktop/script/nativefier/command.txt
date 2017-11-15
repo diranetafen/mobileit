@@ -1,0 +1,34 @@
+<---------------------- use builded Docker images ------------------>
+
+sudo docker run -v /home/pi/nativefier/MobileIT/:/MobileIT dirane/nativefier:rpi "http://127.0.0.1:8068" -a armv7l  /MobileIT/
+
+
+
+<------------------------ Use on baremetal ------------------------->
+
+1- Install :
+sudo apt-get update
+sudo apt-get install npm
+mkdir nativefier/
+cd nativefier/
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
+sudo npm install nativefier -g
+nativefier --name "Some Awesome App" "http://medium.com"
+nativefier --name "Some Awesome App" "http://medium.com" -a armv7l
+
+
+2- Command to create app
+nativefier --name "MobileIT" "http://127.0.0.1:8069" -a armv7l -i odoo-image-transparent.png
+
+3- Shortcut : MobileIT.desktop
+[Desktop Entry]
+Version=1.0
+Name=MobileIT
+Comment=Pos Service By MobileIT
+Exec=/home/pi/nativefier/MobileIT/mobile-it
+Icon=/home/pi/nativefier/MobileIT/odoo-image-transparent.png
+Terminal=false
+Type=Application
+Categories=Utility;Application;

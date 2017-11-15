@@ -1,0 +1,9 @@
+directory="/media/pi/USB_POS"
+if [ -d $directory ] ; then
+        echo "$(date) ----------   check_usb_key : usb_key up" >>  /home/pi/custum_desktop/logs/check_usb_key.log
+        echo "OK" > /home/pi/custum_desktop/logs/check_usb_key.txt
+else
+        echo "$(date) ----------   check_usb_key : usb_key down" >>  /home/pi/custum_desktop/logs/check_usb_key.log
+        echo "KO" > /home/pi/custum_desktop/logs/check_usb_key.txt
+fi
+

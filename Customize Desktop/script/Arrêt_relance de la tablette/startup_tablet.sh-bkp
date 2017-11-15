@@ -1,0 +1,31 @@
+pos_container=`docker ps -a --format '{{.Names}}' | sed -n 1p`
+db_container=`docker ps -a --format '{{.Names}}' | sed -n 2p`
+
+if [ `sudo docker inspect -f {{.State.Running}} $db_container` = true ]; then
+   echo " $(date) ----------   Tablet-Startup : Stopping container $db_container" >> startup_tablet.log
+   sudo docker stop $db_container
+   sleep 5
+else
+   echo " $(date) ----------   Tablet-Startup : Container $db_container already stopped" >> startup_tablet.log
+fi
+
+if [ `sudo docker inspect -f {{.State.Running}} $pos_container` = true ]; then
+    echo " $(date) ----------   Tablet-Startup : Starting container $pos_container" >> startup_tablet.log
+    sudo docker stop $pos_container
+    sleep 5
+else
+    echo " $(date) ----------   Tablet-Startup : Container $pos_container already stopped" >> startup_tablet.log
+fi
+
+
+if [ `sudo docker inspect -f {{.State.Status}} $pos_container` = "running" ] && [ `sudo docker inspect -f {{.State.Status}} $db_container` = "running" ] ; then
+    echo " $(date) ----------   Tablet-Startup : The two container are up" >> startup_tablet.log
+else
+    echo " $(date) ----------   Tablet-Startup : container are not started, there may an issue" >> startup_tablet.log
+fi
+
+echo " $(date) ----------   Tablet-Startup : Start PyWeb display webservice" >> startup_tablet.log
+cd /home/pi/odoo/pywebdriver
+nohup sudo python pywebdriverd >> pywebdriver.log 2>&1 &
+echo $! > pydriver_pid.txt
+

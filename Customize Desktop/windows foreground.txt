@@ -1,0 +1,6 @@
+https://ubuntuincident.wordpress.com/2013/01/10/find-window-by-its-name-and-activate-it-bring-to-foreground/
+
+sudo apt-get install wmctrl -y
+wmctrl -l
+
+sudo apt-get install xdotool -y

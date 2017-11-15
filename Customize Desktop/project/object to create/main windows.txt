@@ -1,0 +1,10 @@
+-> TopLevel : master
+	notebook : tab_notebook - pack()
+		frame1 : app_tab_frame - pack()
+			frame1_1 : header_app_tab_frame - pack()
+			frame1_2 : app_power_frame - pack()
+			frame1_3 : tablet_power_frame - pack()
+		frame2 : management_tab_frame - pack()
+			frame2_1 : header_management_tab_frame - pack()
+			frame2_2 : devices_status_frame - pack()
+			frame2_3 : support_frame - pack()

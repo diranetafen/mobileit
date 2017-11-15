@@ -1,0 +1,35 @@
+ Sun  1 Oct 21:55:03 CEST 2017 ----------   BACKUP-connection : Could ping google
+ Sun  1 Oct 21:55:39 CEST 2017 ----------   BACKUP-connection : Backup done
+ Sun  1 Oct 22:09:31 CEST 2017 ----------   BACKUP-connection : Could ping google
+ Sun  1 Oct 22:10:15 CEST 2017 ----------   BACKUP-connection : Backup error
+ Sun  1 Oct 22:16:17 CEST 2017 ----------   BACKUP-connection : Could ping google
+ Sun  1 Oct 22:29:55 CEST 2017 ----------   BACKUP-connection : Backup done
+ Mon  2 Oct 21:26:32 CEST 2017 ----------   BACKUP-USB_KEY : USB KEY not Inserted
+ Mon  2 Oct 21:27:35 CEST 2017 ----------   BACKUP-USB_KEY : USB KEY Inserted
+ Mon  2 Oct 21:27:35 CEST 2017 ----------   BACKUP-USB_KEY : Backup error
+ Sun  8 Oct 15:58:54 CEST 2017 ----------   BACKUP-connection : Could ping google
+ Sun  8 Oct 16:01:33 CEST 2017 ----------   BACKUP-USB_KEY : USB KEY Inserted
+ Sun  8 Oct 16:01:34 CEST 2017 ----------   BACKUP-USB_KEY : Backup done
+ Sun  8 Oct 16:04:30 CEST 2017 ----------   BACKUP-USB_KEY : USB KEY Inserted
+ Sun  8 Oct 16:04:30 CEST 2017 ----------   BACKUP-USB_KEY : Backup done
+ Sun  8 Oct 16:16:45 CEST 2017 ----------   BACKUP-connection : Backup error
+ Sun  8 Oct 16:29:36 CEST 2017 ----------   BACKUP-USB_KEY : USB KEY Inserted
+ Sun  8 Oct 16:29:36 CEST 2017 ----------   BACKUP-USB_KEY : Backup done
+ Mon  9 Oct 23:02:47 CEST 2017 ----------   BACKUP-USB_KEY : USB KEY Inserted
+ Mon  9 Oct 23:02:47 CEST 2017 ----------   BACKUP-USB_KEY : Backup done
+ Mon  9 Oct 23:04:52 CEST 2017 ----------   BACKUP-USB_KEY : USB KEY Inserted
+ Mon  9 Oct 23:04:52 CEST 2017 ----------   BACKUP-USB_KEY : Backup done
+ Mon  9 Oct 23:07:26 CEST 2017 ----------   BACKUP-USB_KEY : USB KEY Inserted
+ Mon  9 Oct 23:07:26 CEST 2017 ----------   BACKUP-USB_KEY : Not enought space on usb key
+ Sun 15 Oct 12:30:08 CEST 2017 ----------   BACKUP-USB_KEY : USB KEY Inserted
+ Sun 15 Oct 12:30:08 CEST 2017 ----------   BACKUP-USB_KEY : Backup error
+ Sun 15 Oct 12:39:25 CEST 2017 ----------   BACKUP-USB_KEY : USB KEY Inserted
+ Sun 15 Oct 12:39:25 CEST 2017 ----------   BACKUP-USB_KEY : Backup error
+ Sun 15 Oct 12:40:09 CEST 2017 ----------   BACKUP-USB_KEY : USB KEY Inserted
+ Sun 15 Oct 12:40:09 CEST 2017 ----------   BACKUP-USB_KEY : Backup error
+ Sun 15 Oct 12:53:40 CEST 2017 ----------   BACKUP-USB_KEY : USB KEY Inserted
+ Sun 15 Oct 12:53:40 CEST 2017 ----------   BACKUP-USB_KEY : Backup done
+ Sun 15 Oct 12:55:41 CEST 2017 ----------   BACKUP-USB_KEY : USB KEY Inserted
+ Sun 15 Oct 12:55:42 CEST 2017 ----------   BACKUP-USB_KEY : Backup done
+ Sun 15 Oct 12:55:59 CEST 2017 ----------   BACKUP-USB_KEY : USB KEY Inserted
+ Sun 15 Oct 12:56:00 CEST 2017 ----------   BACKUP-USB_KEY : Backup done

@@ -1,0 +1,1 @@
+edit /etc/rc.local file to add to script to be run on startup with root right

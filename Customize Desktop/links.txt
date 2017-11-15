@@ -1,0 +1,6 @@
+https://raspberrypi.stackexchange.com/questions/15858/custom-interface-or-desktop-environment-for-raspberry-pi
+
+http://python-textbok.readthedocs.io/en/1.0/Introduction_to_GUI_Programming.html
+
+https://www.raspberrypi.org/forums/viewtopic.php?f=32&t=111452
+

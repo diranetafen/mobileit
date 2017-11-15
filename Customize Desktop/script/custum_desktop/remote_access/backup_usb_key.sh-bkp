@@ -1,0 +1,32 @@
+cd /home/pi/custum_desktop/remote_access #Changing directory to your working directory
+usb_key="/media/pi/USB_POS/"
+destination_directory=$(date '+%d-%b-%Y')
+cd /home/pi/odoo/pos_demo_full/backup/
+find -name "* *" -type f | rename 's/ /_/g'
+filename=$(ls -dt MobileIT* | head -1)
+cd /home/pi/custum_desktop/logs/
+if [ -d "$usb_key" ]
+then
+	echo " $(date) ----------   BACKUP-USB_KEY : USB KEY Inserted" >> backup_answer.log
+	if [ ! -d "$usb_key$destination_directory" ]
+	then
+		mkdir "$usb_key$destination_directory"
+	fi
+	cp /home/pi/odoo/pos_demo_full/backup/$filename "$usb_key$destination_directory"
+	result=$?
+	if [ $result = "0" ]
+	then
+		backup="OK"
+		echo $backup > backup_answer.txt
+		echo " $(date) ----------   BACKUP-USB_KEY : Backup done" >> backup_answer.log
+	else
+		backup="KO"
+		echo $backup > backup_answer.txt
+		echo " $(date) ----------   BACKUP-USB_KEY : Backup error" >> backup_answer.log
+	fi
+else
+	echo " $(date) ----------   BACKUP-USB_KEY : USB KEY not Inserted" >> backup_answer.log
+	backup="KO"
+	echo $backup > backup_answer.txt
+fi
+	

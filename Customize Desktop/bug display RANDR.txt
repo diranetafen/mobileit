@@ -1,0 +1,8 @@
+http://thepiandi.blogspot.fr/2013/10/can-python-script-with-gui-run-from.html
+
+https://superuser.com/questions/514688/sudo-x11-application-does-not-work-correctly
+
+To automate, you could add these lines to your ~/.bashrc:
+
+xhost + 
+alias sudo='sudo DISPLAY=:0.0'

@@ -1,0 +1,4 @@
+https://blog.startingelectronics.com/auto-start-a-desktop-application-on-the-rapberry-pi/
+
+# Add this line at the end of the file ~/.config/lxsession/LXDE-pi/autostart
+@/bin/bash /home/pi/custum_desktop/acces_admin/start_customize_desktop.sh
